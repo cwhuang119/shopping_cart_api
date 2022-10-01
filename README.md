@@ -36,3 +36,6 @@ http://127.0.0.1:8000/apidocs/#/default
 1. /account/login
 2. /cart/add
 3. /cart/checkout
+
+## File Layout
+![image](src/file_layout.png)
