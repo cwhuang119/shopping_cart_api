@@ -46,3 +46,9 @@ http://127.0.0.1:8000/apidocs/#/default
 
 ## File Layout
 ![image](src/file_layout.png)
+
+## Pytest APIs & Functions
+```
+cd project
+pytest
+```
