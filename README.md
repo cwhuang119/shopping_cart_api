@@ -21,7 +21,7 @@ python app.py
 ```
 
 
-## Installation (Local)
+## Installation (Docker)
 ### Run Server
 ```
 sudo docker run --rm -d -p 8000:8000 --name shopping_cart rejectsgallery/demo:sc-1.0
