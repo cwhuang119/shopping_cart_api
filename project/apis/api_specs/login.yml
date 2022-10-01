@@ -1,0 +1,8 @@
+Login to save username in to session
+Need to login before sending requests to carts' apis
+---
+responses:
+  200:
+    description: Login success.
+    examples:
+      message: 'Login success.'

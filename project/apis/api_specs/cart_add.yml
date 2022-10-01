@@ -1,0 +1,29 @@
+parameters:
+  - name: product_name
+    type: string
+    in: formData
+    enum: ['apple', 'banana', 'orange']
+    required: true
+    default: apple
+responses:
+  200:
+    description: Product add to cart / Product out of stock
+    content:
+      application/json:
+        schema:
+          type: object
+  
+  302:
+    description: Redirect to login page 
+    content:
+      application/json:
+        schema:
+          type: object
+  400:
+    description: Missing product name 
+    content:
+      application/json:
+        schema:
+          type: object
+
+

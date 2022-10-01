@@ -1,0 +1,15 @@
+responses:
+  200:
+    description: Checkout success / Cart is empty
+    content:
+      application/json:
+        schema:
+          type: object
+  302:
+    description: Redirect to login page 
+    content:
+      application/json:
+        schema:
+          type: object
+
+
